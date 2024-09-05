@@ -1,0 +1,7 @@
+<form class="ms-3 me-3" [formGroup]="noteForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="noteTextArea" class="form-label"></label>
+    <textarea class="form-control" id="noteTextArea" rows="3" formControlName="text"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary mt-2">Save</button>
+</form>
